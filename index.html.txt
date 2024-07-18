@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Adrião - Especialista em Imóveis de Alto Padrão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Leonardo Adrião</h1>
+    </div>
+
+    <div class="banner">
+        <h2>Encontre seu imóvel dos sonhos em Florianópolis</h2>
+        <a href="#portfolio" class="cta-button">Veja nossos imóveis</a>
+    </div>
+
+    <div class="container">
+        <div id="portfolio" class="content-section">
+            <h2>Imóveis em Destaque</h2>
+            <div id="property-list" class="property-list">
+                <!-- Imóveis serão carregados aqui -->
+            </div>
+        </div>
+
+        <div id="about" class="content-section">
+            <h2>Sobre</h2>
+            <p>Leonardo Adrião é especialista em imóveis de alto padrão com vasta experiência no mercado imobiliário de Florianópolis.</p>
+        </div>
+
+        <div id="services" class="content-section">
+            <h2>Serviços</h2>
+            <p>Oferecemos consultoria personalizada para compra, venda, aluguel e investimentos imobiliários.</p>
+        </div>
+
+        <div id="contact" class="content-section">
+            <h2>Contato</h2>
+            <form action="https://formspree.io/f/{your-form-id}" method="post">
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <div id="schedule" class="content-section">
+            <h2>Agendar Visita</h2>
+            <form action="https://formspree.io/f/{your-form-id}" method="post">
+                <label for="date">Data:</label><br>
+                <input type="date" id="date" name="date" required><br>
+                <label for="time">Hora:</label><br>
+                <input type="time" id="time" name="time" required><br>
+                <label for="contact">Informações de Contato:</label><br>
+                <textarea id="contact" name="contact" required></textarea><br>
+                <input type="submit" value="Agendar">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Leonardo Adrião - Todos os direitos reservados.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
